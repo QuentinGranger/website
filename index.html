@@ -1,106 +1,270 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Awesome Website</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Le Quotidien Tabletop — actualité de l'industrie du jeu, JCC/TCG, retail, distribution, studios et sorties, avec un focus France.">
+  <title>Le Quotidien Tabletop — Industrie & Jeux</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="topline">
+    <div class="shell topline-inner">
+      <span>ÉDITION FRANCE · VEILLE MONDIALE</span>
+      <span id="edition-date">31 AOÛT 2026</span>
+    </div>
+  </div>
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+  <header class="site-header shell">
+    <a class="brand" href="#" aria-label="Accueil">
+      <span class="brand-kicker">LE QUOTIDIEN</span>
+      <span class="brand-main">TABLETOP</span>
+      <span class="brand-sub">INDUSTRIE & JEUX</span>
+    </a>
+    <div class="header-meta">
+      <span class="live-dot"></span>
+      <span>Veille quotidienne · 08:00</span>
+    </div>
+  </header>
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
+  <nav class="nav-wrap">
+    <div class="shell nav">
+      <button class="nav-toggle" aria-label="Ouvrir le menu">Menu</button>
+      <div class="nav-links">
+        <a href="#une">À la une</a>
+        <a href="#industrie">Industrie</a>
+        <a href="#retail">Retail</a>
+        <a href="#tcg">JCC / TCG</a>
+        <a href="#jds">Jeux de société</a>
+        <a href="#agenda">Agenda</a>
       </div>
-    </nav>
+      <label class="search">
+        <span>⌕</span>
+        <input id="search-input" type="search" placeholder="Rechercher dans l’édition" aria-label="Rechercher">
+      </label>
+    </div>
+  </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+  <main>
+    <section class="shell hero" id="une">
+      <div class="hero-main story searchable" data-tags="industrie asmodee france ip acquisition">
+        <div class="eyebrow">INDUSTRIE · MAJEUR · NEWS VALUE 9/10</div>
+        <h1>Asmodee renforce sa logique de franchise : l’industrie ludique accélère sa consolidation</h1>
+        <p class="lead">L’actualité du jour se lit d’abord comme un mouvement d’industrie, pas comme un catalogue de sorties. Consolidation des IP, distribution, supply chain et trafic en boutique structurent l’édition.</p>
+        <div class="story-meta">
+          <span>Desk France</span>
+          <span>Lecture 4 min</span>
+          <span class="pill">Impact France : direct</span>
+        </div>
+      </div>
+
+      <aside class="hero-side">
+        <article class="side-story story searchable" data-tags="magic supply chain retail">
+          <span class="eyebrow">SUPPLY CHAIN</span>
+          <h2>Magic : tension annoncée sur les Play Boosters de Reality Fracture</h2>
+          <p>Le canal de Panama rappelle que la logistique mondiale reste un risque concret pour le TCG physique.</p>
+        </article>
+        <article class="side-story story searchable" data-tags="gama retail boutiques">
+          <span class="eyebrow">RETAIL</span>
+          <h2>Game Store Day : le trafic physique redevient un sujet stratégique</h2>
+          <p>GAMA structure un rendez-vous pensé pour soutenir les boutiques spécialisées indépendantes.</p>
+        </article>
+      </aside>
+    </section>
+
+    <section class="ticker">
+      <div class="shell ticker-inner">
+        <strong>FIL INDUSTRIE</strong>
+        <span>Asmodee · licences & IP</span>
+        <span>Wizards · logistique</span>
+        <span>GAMA · retail</span>
+        <span>Allplay · stratégie éditoriale</span>
+        <span>Pokémon · 30e anniversaire</span>
+      </div>
+    </section>
+
+    <section class="shell section" id="industrie">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">DESK ÉCONOMIE</span>
+          <h2>Industrie — les mouvements à retenir</h2>
+        </div>
+        <span class="section-note">La partie principale du journal</span>
+      </div>
+
+      <div class="grid-3">
+        <article class="card featured searchable" data-tags="asmodee blue cocker industrie ip france">
+          <div class="card-top">
+            <span class="category">ACQUISITIONS & IP</span>
+            <span class="impact impact-major">MAJEUR</span>
+          </div>
+          <h3>Consolidation des licences : la valeur se déplace vers les franchises durables</h3>
+          <p>Les grands groupes cherchent moins à multiplier mécaniquement les nouveautés qu’à renforcer des propriétés intellectuelles exploitables sur plusieurs années, territoires et canaux.</p>
+          <a href="#sources">Voir les sources →</a>
+        </article>
+
+        <article class="card searchable" data-tags="allplay studios catalogue stratégie">
+          <div class="card-top">
+            <span class="category">ÉDITEURS & STUDIOS</span>
+            <span class="impact">IMPORTANT</span>
+          </div>
+          <h3>Allplay segmente son catalogue avec trois nouvelles lignes</h3>
+          <p>Masterworks, Epics et Creations traduisent un mouvement vers des productions plus lourdes, des campagnes et de nouveaux publics.</p>
+        </article>
+
+        <article class="card searchable" data-tags="supply chain magic shipping panama">
+          <div class="card-top">
+            <span class="category">SUPPLY CHAIN</span>
+            <span class="impact">IMPORTANT</span>
+          </div>
+          <h3>Le transport maritime revient dans le risque opérationnel du TCG</h3>
+          <p>Les tensions sur Reality Fracture sont limitées à l’Amérique du Nord, mais illustrent la fragilité possible des calendriers physiques.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="retail">
+      <div class="shell">
+        <div class="section-heading inverse">
+          <div>
+            <span class="section-kicker">BOUTIQUES · DISTRIBUTION</span>
+            <h2>Retail Desk</h2>
+          </div>
+          <span class="section-note">Ce qu’un responsable de boutique doit savoir</span>
+        </div>
+
+        <div class="retail-grid">
+          <div class="retail-number"><span>01</span><p>Anticiper les allocations et réassorts sur les sorties TCG à forte demande plutôt que raisonner uniquement en précommande.</p></div>
+          <div class="retail-number"><span>02</span><p>Traiter les événements en boutique comme un moteur de footfall (trafic en magasin), pas comme une simple animation périphérique.</p></div>
+          <div class="retail-number"><span>03</span><p>Réduire la profondeur inutile de catalogue : la curation devient une compétence commerciale face à la saturation des sorties.</p></div>
+          <div class="retail-number"><span>04</span><p>Surveiller les changements de distributeur, de MSRP (prix public conseillé) et de disponibilité avant les grosses fenêtres Q4.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section two-col" id="tcg">
+      <div>
+        <div class="section-heading compact">
+          <div>
+            <span class="section-kicker">JCC / TCG</span>
+            <h2>Marché, produits & Organized Play</h2>
+          </div>
+        </div>
+
+        <div class="list-stories">
+          <article class="list-story story searchable" data-tags="magic reality fracture supply chain">
+            <div><span class="category">MAGIC</span><span class="status status-new">NOUVEAU</span></div>
+            <h3>Reality Fracture : Wizards prévient d’une tension temporaire sur les Play Boosters</h3>
+            <p>La disponibilité au lancement devrait être suffisante en Amérique du Nord, avec une période de tension possible après release.</p>
+          </article>
+          <article class="list-story story searchable" data-tags="pokemon 30th celebration product tcg">
+            <div><span class="category">POKÉMON</span><span class="status">PRODUIT</span></div>
+            <h3>30th Celebration : de nouveaux formats produits s’ajoutent au calendrier</h3>
+            <p>Le site distingue volontairement l’annonce produit de son importance industrielle pour éviter l’effet catalogue.</p>
+          </article>
+          <article class="list-story story searchable" data-tags="organized play competitive retail">
+            <div><span class="category">ORGANIZED PLAY</span><span class="status">RADAR</span></div>
+            <h3>Le jeu organisé reste un levier de fidélisation et de trafic pour le retail spécialisé</h3>
+            <p>Les évolutions de circuits, qualifications et politiques de tournoi seront suivies au même niveau que les sorties.</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="briefing">
+        <span class="section-kicker">BRIEFING 08:00</span>
+        <h2>Les 3 choses à retenir</h2>
+        <ol>
+          <li><strong>Industrie :</strong> la consolidation des IP reste un axe stratégique majeur.</li>
+          <li><strong>Retail :</strong> trafic, événements et sélection de gamme deviennent des KPI opérationnels centraux.</li>
+          <li><strong>TCG :</strong> la supply chain peut encore perturber les fenêtres de lancement malgré la puissance des marques.</li>
+        </ol>
+        <div class="briefing-footer">
+          <span>Prochaine édition</span>
+          <strong>Demain · 08:00</strong>
+        </div>
+      </aside>
+    </section>
+
+    <section class="shell section" id="jds">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">JEUX DE SOCIÉTÉ</span>
+          <h2>Ce qui change derrière les boîtes</h2>
+        </div>
+        <span class="section-note">Éditeurs · studios · VF · distribution</span>
+      </div>
+
+      <div class="editorial-row">
+        <article class="editorial-card searchable" data-tags="board games saturation france distribution">
+          <span class="big-index">A</span>
+          <div>
+            <span class="category">MARCHÉ FRANÇAIS</span>
+            <h3>La saturation du nombre de références devient un enjeu de distribution</h3>
+            <p>Le desk suit désormais les liquidations, changements de catalogue, pertes de licences et tensions de trésorerie comme des news de premier plan.</p>
+          </div>
+        </article>
+        <article class="editorial-card searchable" data-tags="publishers studios localization">
+          <span class="big-index">B</span>
+          <div>
+            <span class="category">STRATÉGIE ÉDITORIALE</span>
+            <h3>Nouvelles gammes, nouvelles éditions, nouvelles cibles</h3>
+            <p>Chaque sortie est replacée dans la stratégie de son éditeur : extension de gamme, localisation, repositionnement ou acquisition de licence.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="shell section agenda-section" id="agenda">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">CALENDRIER</span>
+          <h2>Agenda 7 / 30 / 90 / 180 jours</h2>
+        </div>
+      </div>
+
+      <div class="agenda-tabs" role="tablist">
+        <button class="agenda-tab active" data-range="7">7 jours</button>
+        <button class="agenda-tab" data-range="30">30 jours</button>
+        <button class="agenda-tab" data-range="90">90 jours</button>
+        <button class="agenda-tab" data-range="180">180 jours</button>
+      </div>
+      <div id="agenda-list" class="agenda-list"></div>
+    </section>
+
+    <section class="shell section sources" id="sources">
+      <div class="section-heading compact">
+        <div>
+          <span class="section-kicker">TRANSPARENCE</span>
+          <h2>Sources de l’édition pilote</h2>
+        </div>
+      </div>
+      <p>Le site privilégie les sources primaires et la presse professionnelle. Les informations internationales ne sont jamais présentées comme françaises sans confirmation.</p>
+      <div class="source-links">
+        <a href="https://www.magic.wizards.com/en/news/announcements/reality-fracture-play-booster-supply-may-be-tight-at-release" target="_blank" rel="noreferrer">Wizards of the Coast</a>
+        <a href="https://icv2.com/articles/news/view/63261/gama-offers-up-more-information-game-store-day-2026" target="_blank" rel="noreferrer">ICv2 — GAMA</a>
+        <a href="https://icv2.com/articles/news/view/63263/allplay-expand-offerings-three-new-lines" target="_blank" rel="noreferrer">ICv2 — Allplay</a>
+        <a href="https://www.pokemon.com/us/pokemon-tcg/product-gallery/30th-celebration-binder-collection" target="_blank" rel="noreferrer">Pokémon — Product Gallery</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <div>
+        <div class="footer-brand">LE QUOTIDIEN TABLETOP</div>
+        <p>Industrie & Jeux · Desk France</p>
+      </div>
+      <div>
+        <strong>Couverture</strong>
+        <p>Industrie · Retail · JCC/TCG · Jeux de société · Wargames · Crowdfunding</p>
+      </div>
+      <div>
+        <strong>Principe éditorial</strong>
+        <p>ZERO-MISS + ZERO-BRUIT · sources primaires · impact France</p>
       </div>
     </div>
+  </footer>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2015</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+  <script src="js/main.js"></script>
+</body>
 </html>
