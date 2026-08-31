@@ -1,0 +1,95 @@
+{
+  "editionDate": "31 août 2026",
+  "activity": "CHARGÉ",
+  "hero": {
+    "eyebrow": "INDUSTRIE · MAJEUR · NEWS VALUE 9/10",
+    "title": "L’industrie ludique se consolide : IP, distribution et retail dominent l’édition",
+    "lead": "L’actualité du jour se lit d’abord comme un mouvement d’industrie, pas comme un catalogue de sorties. Consolidation des IP, supply chain et trafic en boutique structurent le marché.",
+    "tags": "industrie france ip retail distribution"
+  },
+  "sideStories": [
+    {
+      "eyebrow": "SUPPLY CHAIN",
+      "title": "Magic : tension annoncée sur les Play Boosters de Reality Fracture",
+      "text": "Wizards confirme un risque de disponibilité temporairement réduite en Amérique du Nord après le lancement."
+    },
+    {
+      "eyebrow": "RETAIL",
+      "title": "Game Store Day : le trafic physique devient un sujet stratégique",
+      "text": "GAMA détaille un dispositif destiné à soutenir les boutiques spécialisées indépendantes."
+    }
+  ],
+  "briefing": [
+    "Industrie : consolidation des IP et segmentation des catalogues.",
+    "Retail : événements, trafic et sélection de gamme deviennent des enjeux centraux.",
+    "TCG : la supply chain peut encore perturber les fenêtres de lancement."
+  ],
+  "agenda": [
+    {
+      "days": 3,
+      "date": "03 sept.",
+      "title": "SPIEL Essen — mise à jour des données 2026",
+      "type": "Industrie"
+    },
+    {
+      "days": 16,
+      "date": "16 sept.",
+      "title": "Games Workshop — AGM",
+      "type": "Corporate"
+    },
+    {
+      "days": 18,
+      "date": "18 sept.",
+      "title": "Game Store Day — deadline éditeurs",
+      "type": "Retail"
+    },
+    {
+      "days": 25,
+      "date": "25 sept.",
+      "title": "Magic: Reality Fracture — prerelease",
+      "type": "JCC / TCG"
+    },
+    {
+      "days": 32,
+      "date": "02 oct.",
+      "title": "Magic: Reality Fracture — sortie",
+      "type": "JCC / TCG"
+    },
+    {
+      "days": 52,
+      "date": "22–25 oct.",
+      "title": "SPIEL Essen 2026",
+      "type": "Salon"
+    },
+    {
+      "days": 68,
+      "date": "07 nov.",
+      "title": "Game Store Day 2026",
+      "type": "Retail"
+    },
+    {
+      "days": 95,
+      "date": "04 déc.",
+      "title": "Pokémon TCG 30th Celebration — produits US",
+      "type": "JCC / TCG"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wizards of the Coast",
+      "url": "https://www.magic.wizards.com/en/news/announcements/reality-fracture-play-booster-supply-may-be-tight-at-release"
+    },
+    {
+      "label": "ICv2 — GAMA",
+      "url": "https://icv2.com/articles/news/view/63261/gama-offers-up-more-information-game-store-day-2026"
+    },
+    {
+      "label": "ICv2 — Allplay",
+      "url": "https://icv2.com/articles/news/view/63263/allplay-expand-offerings-three-new-lines"
+    },
+    {
+      "label": "Pokémon",
+      "url": "https://www.pokemon.com/us/pokemon-tcg/product-gallery/30th-celebration-binder-collection"
+    }
+  ]
+}
